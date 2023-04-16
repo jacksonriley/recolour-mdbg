@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Recolour MDBG",
+  "version": "1.0",
+  "description": "Fix the tone colours in MDBG",
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://www.mdbg.net/*"
+      ]
+    }
+  ]
+}
